@@ -2,7 +2,8 @@
 
 namespace AspNetMvcBlog.Areas.Admin
 {
-    public class AdminCategoryController : Controller
+    [Area("Admin")]
+    public class CategoryController : Controller
     {
         public IActionResult Index()
         {
